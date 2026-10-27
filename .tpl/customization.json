@@ -1,0 +1,117 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与发售时间",
+      "description": "名称、编号与倒计时目标",
+      "files": [
+        {
+          "path": "src/features/srigen/config",
+          "kind": "directory",
+          "purpose": "名称、编号与倒计时目标"
+        }
+      ],
+      "constraints": [
+        "中英文同步维护",
+        "复用主题与组件",
+        "不得静默增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "双语内容与素材",
+      "description": "页面内容与素材映射",
+      "files": [
+        {
+          "path": "src/features/srigen/content",
+          "kind": "directory",
+          "purpose": "页面内容与素材映射"
+        }
+      ],
+      "constraints": [
+        "中英文同步维护",
+        "复用主题与组件",
+        "不得静默增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题与响应式",
+      "description": "颜色、字号、玻璃卡片与滚动条",
+      "files": [
+        {
+          "path": "src/features/srigen/theme.css",
+          "kind": "file",
+          "purpose": "颜色、字号、玻璃卡片与滚动条"
+        }
+      ],
+      "constraints": [
+        "中英文同步维护",
+        "复用主题与组件",
+        "不得静默增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "交互与动效",
+      "description": "鞋盒、悬浮、翻面、滚动、菜单与表单",
+      "files": [
+        {
+          "path": "src/features/srigen/components",
+          "kind": "directory",
+          "purpose": "鞋盒、悬浮、翻面、滚动、菜单与表单"
+        }
+      ],
+      "constraints": [
+        "中英文同步维护",
+        "复用主题与组件",
+        "不得静默增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面与路由",
+      "description": "五个业务页面的区块组合",
+      "files": [
+        {
+          "path": "src/features/srigen/pages",
+          "kind": "directory",
+          "purpose": "五个业务页面的区块组合"
+        }
+      ],
+      "constraints": [
+        "中英文同步维护",
+        "复用主题与组件",
+        "不得静默增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "test",
+        "build"
+      ]
+    }
+  ]
+}

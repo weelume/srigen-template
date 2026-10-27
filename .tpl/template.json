@@ -1,0 +1,206 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "srigen",
+  "version": "1.0.0",
+  "name": "SRIGEN · 限量首发",
+  "localizedNames": {
+    "zh": "SRIGEN · 限量首发",
+    "en": "SRIGEN · 001 First Drop"
+  },
+  "gitUrl": "https://github.com/weelume/srigen-template",
+  "sceneId": "landing-page",
+  "listed": false,
+  "tags": [
+    "限量鞋履",
+    "骨白与荧光绿",
+    "滚动叙事",
+    "三维翻转",
+    "双语",
+    "PC / iPad / H5"
+  ],
+  "stack": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "framer-motion"
+  ],
+  "summary": "骨白与荧光绿构成的限量鞋履首发网站，包含互动鞋盒、滚动入盒、卡片翻面、街头图鉴及发售演示。",
+  "localizedSummaries": {
+    "en": "A limited sneaker drop website with an interactive shoebox, scroll storytelling, flip cards, street lookbook and demo notification form."
+  },
+  "accentColor": "#d6fb51",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "SRIGEN 首页 · desktop",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-anatomy.webp",
+      "alt": "SRIGEN 产品解剖 · desktop",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "anatomy"
+    },
+    {
+      "src": "assets/desktop-lookbook.webp",
+      "alt": "SRIGEN 街头图鉴 · desktop",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "lookbook"
+    },
+    {
+      "src": "assets/desktop-drop.webp",
+      "alt": "SRIGEN 限量发售 · desktop",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "drop"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "SRIGEN 首页 · tablet",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-anatomy.webp",
+      "alt": "SRIGEN 产品解剖 · tablet",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "anatomy"
+    },
+    {
+      "src": "assets/tablet-lookbook.webp",
+      "alt": "SRIGEN 街头图鉴 · tablet",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "lookbook"
+    },
+    {
+      "src": "assets/tablet-drop.webp",
+      "alt": "SRIGEN 限量发售 · tablet",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "drop"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "SRIGEN 首页 · mobile",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-anatomy.webp",
+      "alt": "SRIGEN 产品解剖 · mobile",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "anatomy"
+    },
+    {
+      "src": "assets/mobile-lookbook.webp",
+      "alt": "SRIGEN 街头图鉴 · mobile",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "lookbook"
+    },
+    {
+      "src": "assets/mobile-drop.webp",
+      "alt": "SRIGEN 限量发售 · mobile",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "drop"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "响应式官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "drop",
+          "title": "限量发售",
+          "localizedTitles": {
+            "en": "The Drop"
+          }
+        },
+        {
+          "slug": "anatomy",
+          "title": "产品解剖",
+          "localizedTitles": {
+            "en": "Anatomy"
+          }
+        },
+        {
+          "slug": "lookbook",
+          "title": "街头图鉴",
+          "localizedTitles": {
+            "en": "Lookbook"
+          }
+        },
+        {
+          "slug": "story",
+          "title": "品牌故事",
+          "localizedTitles": {
+            "en": "Story"
+          }
+        },
+        {
+          "slug": "404",
+          "title": "404 页面",
+          "localizedTitles": {
+            "en": "404"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "自主实现源码；参考素材仅供设计研究，商业再分发需原权利人授权。",
+    "redistributionAllowed": false
+  }
+}

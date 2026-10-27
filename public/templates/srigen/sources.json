@@ -1,0 +1,211 @@
+{
+  "reference": "https://easy-travel-481469.framer.app/",
+  "assets": [
+    {
+      "file": "images/1HxZ6zMO62iWDtyDCJxtMVqGxc.jpg",
+      "source": "https://framerusercontent.com/images/1HxZ6zMO62iWDtyDCJxtMVqGxc.jpg",
+      "sha256": "2509570442bac89379f0c1dd5dc9738f9fa99ce629e992ea252afd6b6c0014c1",
+      "bytes": 203123,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/3MXeTXRQoOPCxNFbubX82EY42I.jpg",
+      "source": "https://framerusercontent.com/images/3MXeTXRQoOPCxNFbubX82EY42I.jpg",
+      "sha256": "27281d780cdfb647b6f36049925a995106b5e678825856fa65b286c67a89ae7e",
+      "bytes": 283998,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/AmnEUOJ9fuZ9q3HiQVMOw1k6HE.jpg",
+      "source": "https://framerusercontent.com/images/AmnEUOJ9fuZ9q3HiQVMOw1k6HE.jpg",
+      "sha256": "972d579956bc4e30765c36ed09d985d756745bc331be78920247c8dbe1dd49e6",
+      "bytes": 198629,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/B51Zdz539QYhXS8WZ3O3I0hA.jpg",
+      "source": "https://framerusercontent.com/images/B51Zdz539QYhXS8WZ3O3I0hA.jpg",
+      "sha256": "785c51c0896e89ee44a49b423c6d55b985bc373132bedd6a5d5af4855934846c",
+      "bytes": 53178,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/BCjT94F2UEUOe9Np5CIg9TdTBQ.jpg",
+      "source": "https://framerusercontent.com/images/BCjT94F2UEUOe9Np5CIg9TdTBQ.jpg",
+      "sha256": "b7a6b80ab05ea1c534f10099fb4db319b3421e0fa8b1f046575c4a9e302b5b0d",
+      "bytes": 121342,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/DEEeAdaZXMZ7Czb1idQZAHBEZ4.jpg",
+      "source": "https://framerusercontent.com/images/DEEeAdaZXMZ7Czb1idQZAHBEZ4.jpg",
+      "sha256": "1606cbeb0baaafc259aaed1cf75fbb635889b2630fdfbebf8d9796ce8ad83862",
+      "bytes": 49036,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/Gkx0roxH8lfq9otD8MUDeos2k.jpg",
+      "source": "https://framerusercontent.com/images/Gkx0roxH8lfq9otD8MUDeos2k.jpg",
+      "sha256": "402e9f405eb87f59f127348ba05e8b95e7086fef585ea03c6e24268b24dbc83f",
+      "bytes": 178746,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/IVmsdYvzxQRDwJ63pOPCxqeldW4.jpg",
+      "source": "https://framerusercontent.com/images/IVmsdYvzxQRDwJ63pOPCxqeldW4.jpg",
+      "sha256": "8deb37208a8c40bca1f3c1cf410fc6193c808235815f21b09121b70f56a2c7d7",
+      "bytes": 156559,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/KjktOzTRlIU5EXdn1jlBVoYQ.jpg",
+      "source": "https://framerusercontent.com/images/KjktOzTRlIU5EXdn1jlBVoYQ.jpg",
+      "sha256": "3d1cf741c4928cd2883306b1d1f80bb870788ce67df5cb6efb86cb39b0c0cc11",
+      "bytes": 119898,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/PQsSgVFn8uEgV4Rg791HXSmyto.jpg",
+      "source": "https://framerusercontent.com/images/PQsSgVFn8uEgV4Rg791HXSmyto.jpg",
+      "sha256": "dfc309800d0104dba96603dc8f7b32b3c89edf681dd3e669bad77078483449bd",
+      "bytes": 138556,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/TPqzTrtWUhETDPMayD6iQd9h1Wk.jpg",
+      "source": "https://framerusercontent.com/images/TPqzTrtWUhETDPMayD6iQd9h1Wk.jpg",
+      "sha256": "7e341b9cb977c244bd61c2b0bb96c46167bb49b2cbb55a21040d29d935d5699e",
+      "bytes": 73334,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/To0NP0No4TRPyTx3RHeYOTwp9D8.jpg",
+      "source": "https://framerusercontent.com/images/To0NP0No4TRPyTx3RHeYOTwp9D8.jpg",
+      "sha256": "e9dd7932c27d1b343f07661b1dbbad9edc5408ad868ba476f13d99ecde1c379b",
+      "bytes": 274747,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/ULTxok35uxBHqXlzeUYr7OaONmc.jpg",
+      "source": "https://framerusercontent.com/images/ULTxok35uxBHqXlzeUYr7OaONmc.jpg",
+      "sha256": "04ae5be35b89023bc406e1fcc7036b90145b75d6c03e55df093b3a06a253b251",
+      "bytes": 137760,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/ZqoKUb9cojho3eDoBWeKDzT4.jpg",
+      "source": "https://framerusercontent.com/images/ZqoKUb9cojho3eDoBWeKDzT4.jpg",
+      "sha256": "115dd552e7ff9292449922f1e00d5bf45f3516205ef39cabb4e9e37b4eac852a",
+      "bytes": 138861,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/dXYaj17qouani2228O9fXOQx8Ik.jpg",
+      "source": "https://framerusercontent.com/images/dXYaj17qouani2228O9fXOQx8Ik.jpg",
+      "sha256": "f3ddf00b9f5a4ce07e8679aa133ff1397bfddf8a3a4f83355210b600d8e32fc9",
+      "bytes": 137079,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/eW3ju22YEfLbtBOmRA2onWWCfVI.png",
+      "source": "https://framerusercontent.com/images/eW3ju22YEfLbtBOmRA2onWWCfVI.png",
+      "sha256": "a87a61b67f65e4aced2ebda1908cc390570b095693ea10413ef27631270ed3b6",
+      "bytes": 1173,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/eYXvlh7vmJJ4nVz8cPAtxZeOc.jpg",
+      "source": "https://framerusercontent.com/images/eYXvlh7vmJJ4nVz8cPAtxZeOc.jpg",
+      "sha256": "626b19debd395c5d2c6c76388955dcfe7e849e56126c1982486a1a7341e343a4",
+      "bytes": 126710,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/llvXjs18t94nqIgwJVvU6ahq00.png",
+      "source": "https://framerusercontent.com/images/llvXjs18t94nqIgwJVvU6ahq00.png",
+      "sha256": "2485f123c2ce90cc855b2c2c6f301bc5e7b72d417a9c7f22c0b23d068ed89adb",
+      "bytes": 138366,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/oosPpszXOqCU5wXVJodKEac3Y0.jpg",
+      "source": "https://framerusercontent.com/images/oosPpszXOqCU5wXVJodKEac3Y0.jpg",
+      "sha256": "54258d39081197c9e142e738349cdbbd1e20af21fde20a876f5d966c213cfb05",
+      "bytes": 85989,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/pxlZSxEX5dBueGre4ry3F0CSq9U.jpg",
+      "source": "https://framerusercontent.com/images/pxlZSxEX5dBueGre4ry3F0CSq9U.jpg",
+      "sha256": "5b716e0f6d14237b56862795c37be8062262f7d95079da5845d0b1da9aac2441",
+      "bytes": 132655,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/qKR64X4HVockRDLSGB8TIWDQ.png",
+      "source": "https://framerusercontent.com/images/qKR64X4HVockRDLSGB8TIWDQ.png",
+      "sha256": "b250c311407d301955718fa5cb1b27b55be0841e35a74385f8e52da1fbc283d6",
+      "bytes": 83470,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/r91ldql3zXiiFosSOAIvqmJJjkU.jpg",
+      "source": "https://framerusercontent.com/images/r91ldql3zXiiFosSOAIvqmJJjkU.jpg",
+      "sha256": "6898206ee4507670574327a816ebed1d23f8818d6c171014037b910975848e48",
+      "bytes": 69691,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/s62GaKHARE3wIzsqNPGqAUZfkuQ.png",
+      "source": "https://framerusercontent.com/images/s62GaKHARE3wIzsqNPGqAUZfkuQ.png",
+      "sha256": "04af88027a5cfb43b19681b54a19f6d16f0f0814916445928ba6eafd90fe57cc",
+      "bytes": 1206,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/sF1v0wyaSCiXoDL8lBdp0YtfwM.jpg",
+      "source": "https://framerusercontent.com/images/sF1v0wyaSCiXoDL8lBdp0YtfwM.jpg",
+      "sha256": "1d5afae418c0bbb9267046f302b5055fa6b55b1f4f085789a8e9b27660428054",
+      "bytes": 104873,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/xV1Y7r0SFKbcN3IYBqzxZcI.jpg",
+      "source": "https://framerusercontent.com/images/xV1Y7r0SFKbcN3IYBqzxZcI.jpg",
+      "sha256": "e6d7a0f589d253851962c7eb1557ec24fdee06496c22479685dc807b377e95e0",
+      "bytes": 109901,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/yZdEWIP5Odyy7bv9JIKhxzSrxo.png",
+      "source": "https://framerusercontent.com/images/yZdEWIP5Odyy7bv9JIKhxzSrxo.png",
+      "sha256": "d526926e7b6fe4c08733d4457937078d4765f3b6d2a4c5daeef0c3bdf38cf016",
+      "bytes": 76250,
+      "license": "Reference design asset; author permission required for commercial redistribution."
+    },
+    {
+      "file": "images/975dKWWwPtL3k9bP3zc9pUWJEos.png",
+      "source": "https://framerusercontent.com/images/975dKWWwPtL3k9bP3zc9pUWJEos.png",
+      "sha256": "189128ba0510110a87e915961c9fcd4b9d4e3421b22a650d0f5535bbb04f9604",
+      "bytes": 78758,
+      "license": "Reference asset; commercial redistribution requires author permission."
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Anton",
+      "source": "https://fonts.google.com/specimen/Anton",
+      "license": "SIL OFL 1.1; fonts/Anton-OFL.txt"
+    },
+    {
+      "family": "Poppins",
+      "source": "https://github.com/itfoundry/Poppins",
+      "license": "SIL OFL 1.1; fonts/Poppins-OFL.txt"
+    },
+    {
+      "family": "MiSans",
+      "source": "https://hyperos.mi.com/font/",
+      "license": "MiSans Font Intellectual Property License Agreement"
+    }
+  ]
+}

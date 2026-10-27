@@ -1,0 +1,10 @@
+'use client'
+import { beliefs, imageRoot, images, timeline } from '../content/data'
+import type { PageProps } from '../types'
+import { Reveal, Title } from '../components/Motion'
+import { EndCTA, Shell } from '../components/Shell'
+import { SectionLabel } from '../components/UI'
+
+export default function StoryPage({locale='zh',basePath}:PageProps) {
+  return <Shell locale={locale} basePath={basePath}><section className="sg-section sg-inner-hero sg-story-hero"><SectionLabel number="04">{locale==='zh'?'品牌故事':'THE STORY'}</SectionLabel><h1><Title highlight={locale==='zh'?'一双鞋':'SHOE.'}>{locale==='zh'?'我们只做\n一双鞋':'WE MAKE\nONE SHOE.'}</Title></h1><p>{locale==='zh'?'不是拥有产品目录的品牌，而是坚持一个主张的厂牌：一次一个轮廓，认真制作，公开退场。':'Not a brand with a catalog. A label with a point: one silhouette at a time, made properly, retired publicly.'}</p><div className="sg-story-est" aria-hidden="true">EST. 2026</div></section><section className="sg-section sg-timeline"><SectionLabel number="05">{locale==='zh'?'一路走来':'HOW WE GOT HERE'}</SectionLabel>{timeline.map((item,i)=><Reveal key={item.year} delay={i*0.1}><article><span>{item.year}</span><div><h2>{item.title[locale]}</h2><p>{item.body[locale]}</p></div></article></Reveal>)}</section><section className="sg-section sg-story-statement"><img src={imageRoot+images.story} alt=""/><div><h2><Title>{locale==='zh'?'模具退场\n让 001 永远留下':'THE MOULD DIES\nSO THE 001 CAN’T.'}</Title></h2><p>{locale==='zh'?'销毁，是我们的保证。工具消失之后，每一双都将无法再版，永远保持它的独一无二。这就是全部。':"Destruction is the warranty. When the tooling is gone, every pair becomes un-reissuable — permanently itself. That’s the whole idea."}</p></div></section><section className="sg-section"><SectionLabel number="06">{locale==='zh'?'我们的信念':'WHAT WE BELIEVE'}</SectionLabel><div className="sg-three-grid">{beliefs.map((item,i)=><Reveal key={item.title.en} delay={i*0.13}><span className="sg-index">0{i+1}</span><h2>{item.title[locale]}</h2><p>{item.body[locale]}</p></Reveal>)}</div></section><EndCTA locale={locale} basePath={basePath} title={locale==='zh'?'成为\n001 的一部分':'BE PART OF\nNO. 001.'}/></Shell>
+}
