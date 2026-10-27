@@ -44,5 +44,21 @@
     "menu background lock/unlock and Escape focus restoration",
     "keyboard box scan burst"
   ],
-  "fullReferenceMotionComparison": "incomplete"
+  "fullReferenceMotionComparison": "incomplete",
+  "navigationRegression": {
+    "checkedAt": "2026-10-27T06:14:45.662Z",
+    "version": "1.0.1",
+    "menuNavigation": "/en → /en/anatomy",
+    "duringTransition": {
+      "busy": true,
+      "inert": true
+    },
+    "afterTransition": {
+      "busy": false,
+      "inert": false
+    },
+    "languageNavigation": "http://localhost:43676/anatomy",
+    "passed": true,
+    "limitation": "先前快速串行点击未证明导航已触发，不能断言已复现输入竞争；本次证实菜单导航、过场锁及结束解锁、对应页语言切换。"
+  }
 }
