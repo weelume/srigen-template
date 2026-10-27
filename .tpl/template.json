@@ -3,7 +3,7 @@
   "format": "git-template",
   "formatVersion": "0.2.0",
   "id": "srigen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "SRIGEN · 限量首发",
   "localizedNames": {
     "zh": "SRIGEN · 限量首发",
@@ -26,7 +26,7 @@
     "TypeScript",
     "framer-motion"
   ],
-  "summary": "骨白与荧光绿构成的限量鞋履首发网站，包含互动鞋盒、滚动入盒、卡片翻面、街头图鉴及发售演示。",
+  "summary": "骨白与荧光绿构成的限量鞋履首发网站，包含光标透视鞋盒、滚动圆形到达、卡片翻面、街头图鉴及发售演示。",
   "localizedSummaries": {
     "en": "A limited sneaker drop website with an interactive shoebox, scroll storytelling, flip cards, street lookbook and demo notification form."
   },

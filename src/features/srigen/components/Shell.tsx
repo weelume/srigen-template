@@ -57,7 +57,7 @@ export function Shell({ children, locale = 'zh', basePath }: PageProps & { child
     event.preventDefault();setMenu(false);setLeaving(true)
     clearTimeout(routeTimer.current);routeTimer.current=setTimeout(()=>router.push(href),450)
   }
-  return <div className={`sg-root sg-${locale}`} lang={locale === 'zh' ? 'zh-CN' : 'en'} onClickCapture={transition}>
+  return <div className={`sg-root sg-${locale}`} lang={locale === 'zh' ? 'zh-CN' : 'en'} onClickCapture={transition} inert={leaving} aria-busy={leaving}>
     <a className="sg-skip" href="#sg-main">{locale==='zh'?'跳至内容':'Skip to content'}</a>
     <Curtain/>
     {leaving&&<motion.div className="sg-route-cover" aria-hidden="true" initial={{y:'100%'}} animate={{y:0}} transition={{duration:.45,ease}}><svg viewBox="0 0 1440 40"><motion.path d="M0 20 H360 Q400 2 440 20 T520 20 H1440" fill="none" stroke="currentColor" strokeWidth="4" initial={{pathLength:0}} animate={{pathLength:1}} transition={{duration:.55,repeat:Infinity}}/></svg></motion.div>}
