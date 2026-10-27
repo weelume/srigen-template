@@ -1,0 +1,74 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-27T05:50:45.934Z",
+  "sourceCommit": "599d0ad75bc68281bc9f3f019f8eb7f6432781c4",
+  "sourceDigest": "fff978423ab494bef86d98727ce19475eeb36453c1543364e62bb8b9ce0adbf5",
+  "environment": {
+    "platform": "linux (local WSL Ubuntu)",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm 9.15.4",
+    "cleanDirectory": true,
+    "localGitClone": true
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-27T05:42:21.991Z",
+      "finishedAt": "2026-10-27T05:42:30.635Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-27T05:42:30.639Z",
+      "finishedAt": "2026-10-27T05:42:31.381Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-27T05:42:31.384Z",
+      "finishedAt": "2026-10-27T05:43:01.562Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-27T05:49:03.559Z"
+    }
+  ],
+  "limitations": [
+    "通过仅指应用合同中的类型、路由测试、生产构建与真实服务检查，不代表参考站完整视觉和动效逐帧一致。",
+    "已核对参考站页面和公开动效参数，并实测三端主要滚动场景；全部页面逐项逐帧对照、精确循环节奏、光标跟随与真实触屏拖拽回弹尚未全部验证，部分运动曲线为重新实现的近似。",
+    "系统减少动态效果分支已实现，但当前浏览器能力未提供媒体偏好模拟，未实测该分支。",
+    "未知路径返回HTTP404，经客户端水合显示自定义404；不宣称未知路径首屏已完整服务端渲染。",
+    "当前Next版本在源码目录执行next start时给出standalone入口提示，服务实际路径已通过；发布standalone产物需按Next要求携带public与.next/static。",
+    "参考设计摄影、产品图和原品牌素材未取得商业再分发许可，listed=false、redistributionAllowed=false。"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "viewports": [
+    {
+      "device": "desktop",
+      "css": [
+        1440,
+        1000
+      ],
+      "image": [
+        1430,
+        993
+      ]
+    },
+    {
+      "device": "tablet",
+      "css": [
+        834,
+        1180
+      ],
+      "image": [
+        824,
+        1166
+      ]
+    },
+    {
+      "device": "mobile",
+      "css": [
+        390,
+        844
+      ],
+      "image": [
+        380,
+        822
+      ]
+    }
+  ],
+  "narrowWidth": 320,
+  "bilingualPageViewportChecks": 40,
+  "screenshotCount": 12,
+  "scrollTerminalRegression": "passed on desktop/tablet/mobile; reverse reset passed on desktop",
+  "interactions": [
+    "language preserves current page/query/hash",
+    "invalid and locally validated email feedback in both languages",
+    "menu background lock/unlock and Escape focus restoration",
+    "keyboard box scan burst"
+  ],
+  "fullReferenceMotionComparison": "incomplete"
+}
